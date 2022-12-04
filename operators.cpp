@@ -62,8 +62,8 @@ int main ()
     cout<<x<<endl;
 
     //conditional operators
-    int a =3, b=2;
-    cout<<"Maximum is:"<<((a>b)?a:b)<<endl;
+    int a =3, b=12;
+    cout<<"Maximum is:"<<((a>b)?(a+2):(b-5))<<endl;
 
 
 
