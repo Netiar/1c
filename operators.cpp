@@ -48,13 +48,22 @@ int main ()
     // }
 
     //Bitwise operator
-    int x=26, y=9;
-    cout<<"x&y:"<<(x&y)<<endl; 
-    cout<<"x|y:"<<(x|y)<<endl; 
-    cout<<"x^y:"<<(x^y)<<endl;
-    cout<<"x<<1:"<<(x<<1)<<endl; 
-    cout<<"x>>1:"<<(x>>1)<<endl; 
-    cout<<"~x:"<<(~x)<<endl; 
+    // int x=26, y=9;
+    // cout<<"x&y:"<<(x&y)<<endl; 
+    // cout<<"x|y:"<<(x|y)<<endl; 
+    // cout<<"x^y:"<<(x^y)<<endl;
+    // cout<<"x<<1:"<<(x<<1)<<endl; 
+    // cout<<"x>>1:"<<(x>>1)<<endl; 
+    // cout<<"~x:"<<(~x)<<endl; 
+
+    // Miscellaneous operators
+    float x= 6.78;
+    cout<<(int)x<<endl;
+    cout<<x<<endl;
+
+    //conditional operators
+    int a =3, b=2;
+    cout<<"Maximum is:"<<((a>b)?a:b)<<endl;
 
 
 
@@ -63,5 +72,6 @@ int main ()
 
 
 
+   return 0;
 
 }
