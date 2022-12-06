@@ -63,7 +63,8 @@ int main ()
 
     //conditional operators
     int a =3, b=12;
-    cout<<"Maximum is:"<<((a>b)?(a+2):(b-5))<<endl;
+    cout<<"Maximum is: "<<((a>b)?(a+2):(b-5))<<endl;
+    cout<<sizeof(a);
 
 
 
