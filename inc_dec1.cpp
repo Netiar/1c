@@ -27,6 +27,7 @@ int main()
    int x=10, y=20, z;
    z= x-- - x++ +--y - ++y + --x - --y + ++x + ++y;
    cout<<"x="<<x<<endl<<"y="<<y<<endl<<"z="<<z<<endl;
+   
 
 //    int y=3;
 //    int z=(--y)+(y=10);
