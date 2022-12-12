@@ -3,15 +3,22 @@ using namespace std;
 int main()
 {
     
-  int money,age;
-  cout<<"how much money do you have:";
+  int money;
+  cout<<"money that you have:";
   cin>>money; 
-  cout<<"enter age:"<<endl;
-  cin>>age;
-  if ((money>1200) && (age>15))
-  cout<<"ugali na Nyama kwa mama's Baze"<<endl;
-       
-     
+  if (money>=1200)
+  {
+    cout<<"Money i have:"<<money<<endl;
+    cout<<"Let's have coffee at mavinduni"<<endl;
+
+  }  
+  else
+  {
+    cout<<"Money i have:"<<money<<endl;
+    cout<<"Let's have coffee at Starbucks"<<endl;
+  } 
+
+      
 
   cout<<"lets go home now";
 
