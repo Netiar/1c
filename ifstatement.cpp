@@ -11,11 +11,25 @@ int main()
     cout<<"Money i have:"<<money<<endl;
     cout<<"Let's have coffee at mavinduni"<<endl;
 
-  }  
-  else
+  }
+  else if(money>700)
   {
     cout<<"Money i have:"<<money<<endl;
-    cout<<"Let's have coffee at Starbucks"<<endl;
+    cout<<"Let's have coffee at CBD"<<endl;
+  }   
+  else if(money>500)
+  {
+    cout<<"Money i have:"<<money<<endl;
+    cout<<"Let's have coffee at kibanda"<<endl;
+  } 
+  else if(money>100)
+  {
+    cout<<"Money i have:"<<money<<endl;
+    cout<<"Let's have chapo dondo "<<endl;
+  }     
+  else
+  {
+    cout<<"Let's have tea"<<endl;
   } 
 
       
